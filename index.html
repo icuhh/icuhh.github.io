@@ -15,6 +15,12 @@
 	.content {
 	  overflow: auto;
 	}
+	.markdown-section pre>code{
+      padding: 1.2em 5px;
+    }
+	.docsify-copy-code-button:focus, pre:hover .docsify-copy-code-button {
+    opacity: 0.85;
+	}
 </style
 </head>
 <body>
@@ -75,13 +81,13 @@
       }
     }
   </script>
-  <script src="//unpkg.com/docsify-copy-code"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="/js/copy.js"></script>
+  <script src="/js/search.min.js"></script>
+  <script src="/js/docsify.min.js"></script>
+<script src="/js/docsify-sidebar-collapse.min.js"></script>
+<script src="/js/docsify-pagination.min.js"></script>
    <!-- 字数统计 -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+    <script src="/js/countable.min.js"></script>
  
 
   <!-- Docsify v4 -->
