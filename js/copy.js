@@ -1,10 +1,3 @@
-*!
- * docsify-copy-code
- * v3.0.0
- * https://github.com/jperasmus/docsify-copy-code
- * (c) 2017-2023 JP Erasmus <jperasmus11@gmail.com>
- * MIT license
- */
 !(function () {
   "use strict";
   function e(o) {
@@ -136,5 +129,5 @@
       },
     ].concat(window.$docsify.plugins || []));
 })();
-//# sourceMappingURL=docsify-copy-code.min.js.map
+
 ​
