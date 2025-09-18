@@ -1,4 +1,4 @@
-![zh-logo2](/zh-logo2.png)
+![icon](/icon.jpg)
 
 # 开发手册 <small>1.0</small>
 
