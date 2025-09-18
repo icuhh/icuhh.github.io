@@ -129,5 +129,3 @@
       },
     ].concat(window.$docsify.plugins || []));
 })();
-
-​
